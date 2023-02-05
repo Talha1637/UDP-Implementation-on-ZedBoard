@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# 
+# Start of session at: Sun Jan  8 03:13:58 2023
+# Process ID: 18456
+# Current directory: C:/Users/SFG/EE3007_Project_vDatamemory/EE3007_Project_vDatamemory.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: C:/Users/SFG/EE3007_Project_vDatamemory/EE3007_Project_vDatamemory.sdk/webtalk/webtalk.log
+# Journal file: C:/Users/SFG/EE3007_Project_vDatamemory/EE3007_Project_vDatamemory.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

@@ -1,0 +1,23 @@
+vhdl xil_defaultlib  \
+"../../../bd/Project_vDatamemory/ipshared/c014/src/ALU32Bit.vhd" \
+"../../../bd/Project_vDatamemory/ipshared/c014/src/Adder.vhd" \
+"../../../bd/Project_vDatamemory/ipshared/c014/src/Controller.vhd" \
+"../../../bd/Project_vDatamemory/ipshared/c014/src/DataMemory.vhd" \
+"../../../bd/Project_vDatamemory/ipshared/c014/hdl/Datapath_IP_vDataMemoryInit_v1_0_S_AXI.vhd" \
+"../../../bd/Project_vDatamemory/ipshared/c014/src/InstructionMemory.vhd" \
+"../../../bd/Project_vDatamemory/ipshared/c014/src/Mux32Bit2to1.vhd" \
+"../../../bd/Project_vDatamemory/ipshared/c014/src/Mux5Bit2to1.vhd" \
+"../../../bd/Project_vDatamemory/ipshared/c014/src/PCAdder.vhd" \
+"../../../bd/Project_vDatamemory/ipshared/c014/src/ProgramCounter.vhd" \
+"../../../bd/Project_vDatamemory/ipshared/c014/src/ShiftLeft2.vhd" \
+"../../../bd/Project_vDatamemory/ipshared/c014/src/SignExtension.vhd" \
+"../../../bd/Project_vDatamemory/ipshared/c014/src/Top_Level_Datapath.vhd" \
+"../../../bd/Project_vDatamemory/ipshared/c014/src/register_file.vhd" \
+"../../../bd/Project_vDatamemory/ipshared/c014/hdl/Datapath_IP_vDataMemoryInit_v1_0.vhd" \
+"../../../bd/Project_vDatamemory/ip/Project_vDatamemory_Datapath_IP_vDataMem_0_0/sim/Project_vDatamemory_Datapath_IP_vDataMem_0_0.vhd" \
+"../../../bd/Project_vDatamemory/ip/Project_vDatamemory_axi_bram_ctrl_0_0/sim/Project_vDatamemory_axi_bram_ctrl_0_0.vhd" \
+"../../../bd/Project_vDatamemory/ip/Project_vDatamemory_rst_ps7_0_100M_0/sim/Project_vDatamemory_rst_ps7_0_100M_0.vhd" \
+"../../../bd/Project_vDatamemory/sim/Project_vDatamemory.vhd" \
+"../../../bd/Project_vDatamemory/ip/Project_vDatamemory_axi_gpio_0_0/sim/Project_vDatamemory_axi_gpio_0_0.vhd" \
+
+nosort

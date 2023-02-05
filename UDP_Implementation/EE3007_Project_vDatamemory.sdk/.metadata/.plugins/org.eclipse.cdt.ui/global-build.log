@@ -1,0 +1,47 @@
+21:09:35 **** Incremental Build of configuration Debug for project udp_main ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+21:09:49 **** Incremental Build of configuration Debug for project udp_main ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+21:11:34 **** Incremental Build of configuration Debug for project udp_main ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+21:12:15 **** Auto Build of configuration Debug for project udp_main ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/udp_main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/udp_main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../udp_main_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/udp_main.d" -MT"src/udp_main.o" -o "src/udp_main.o" "../src/udp_main.c"
+../src/udp_main.c: In function 'main':
+../src/udp_main.c:59:4: warning: unused variable 'BufferPtr_rx' [-Wunused-variable]
+ u8 BufferPtr_rx[10]={0,0x0a,0x35,0,0,0,0,0,0,0};
+    ^~~~~~~~~~~~
+../src/udp_main.c:56:7: warning: unused variable 'err' [-Wunused-variable]
+ err_t err = 0;
+       ^~~
+'Finished building: ../src/udp_main.c'
+' '
+'Building target: udp_main.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../udp_main_bsp/ps7_cortexa9_0/lib -o "udp_main.elf"  ./src/platform.o ./src/udp_main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: udp_main.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size udp_main.elf  |tee "udp_main.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 139000	   3440	2152752	2295192	 230598	udp_main.elf
+'Finished building: udp_main.elf.size'
+' '
+21:12:49 **** Incremental Build of configuration Debug for project udp_main ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.

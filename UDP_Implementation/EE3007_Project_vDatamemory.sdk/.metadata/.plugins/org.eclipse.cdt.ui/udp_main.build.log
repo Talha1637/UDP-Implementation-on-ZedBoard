@@ -1,0 +1,8 @@
+21:12:49 **** Incremental Build of configuration Debug for project udp_main ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+
+21:12:50 Build Finished (took 236ms)
+
